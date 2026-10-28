@@ -1,0 +1,24 @@
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.env
+
+# VS Code
+.vscode/
+
+# Raw and official datasets
+data/REFIT_RAW_081116/
+data/CLEAN_REFIT_081116/
+data/official_cleaned/
+data/cleaned/*.csv
+
+# Generated predictions and large intermediate files
+results/part3/*_predictions.csv
+# Large intermediate Part 1 files
+data/cleaned/house1_combined_1min.csv
+data/cleaned/house1_part1_1min.csv
+data/cleaned/house1_part1_final.csv
+data/cleaned/house1_part1_sorted.csv
+data/cleaned/house1_part2_sorted.csv
